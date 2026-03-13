@@ -1,0 +1,10 @@
+CLOUDFLARE_ACCOUNT_ID=48e4d503932a300f8d23ff402941d553
+CLOUDFLARE_DATABASE_ID=077aadee-49d8-4b41-9264-c11f99e1f19b
+CLOUDFLARE_D1_TOKEN=2cSc1sU6xfqV38svoWbpZwCSdWJWd38Vhn_UaOlE
+
+
+Test this token
+To confirm your token is working correctly, copy and paste the below CURL command in a terminal shell to test.
+
+curl "https://api.cloudflare.com/client/v4/accounts/48e4d503932a300f8d23ff402941d553/tokens/verify" \
+-H "Authorization: Bearer 2cSc1sU6xfqV38svoWbpZwCSdWJWd38Vhn_UaOlE"
