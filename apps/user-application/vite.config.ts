@@ -21,6 +21,8 @@ export default defineConfig({
     cloudflare(),
   ],
   server: {
+    host: "0.0.0.0",
+    allowedHosts: ["oliver-cloud-ide.oar-designs.com", ".oar-designs.com"],
     watch: {
       ignored: ["**/.wrangler/state/**"],
     },
